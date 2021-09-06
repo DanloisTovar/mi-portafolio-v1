@@ -198,7 +198,7 @@ export const projects = [
     desc: `Este portafolio fue realizado en base a una plantilla, Utilizando React (libreria javascript) en la cual se construyo en base a Hooks. Adicioanlmente se utiliza el consumo de la api de Github para mostrar el perfil de mi usuario.`,
     link: {
       name: 'Ir al proyecto...',
-      url: ' ',
+      url: 'https://github.com/DanloisTovar/mi-portafolio-v1 ',
     },
   },
   {
