@@ -197,16 +197,24 @@ export const projects = [
     name: 'Mi Portafolio',
     desc: `Este portafolio fue realizado en base a una plantilla, Utilizando React (libreria javascript) en la cual se construyo en base a Hooks. Adicioanlmente se utiliza el consumo de la api de Github para mostrar el perfil de mi usuario.`,
     link: {
+      /* web: */
       name: 'Ir al proyecto...',
-      url: 'https://github.com/DanloisTovar/mi-portafolio-v1 ',
+      url: 'https://danloistovar.netlify.app/',
+      nameRepository: 'Ir al Repositorio',
+      urlRepository: 'https://github.com/DanloisTovar/mi-portafolio-v1 ',
     },
   },
   {
     name: 'Aplicacion Rick y Morty',
     desc: `Esta aplicacion fue realizada con React (libreria javascript), en la cual se utiliza la api de Rick y Morty para luego redenrizarlo en la web. `,
+
     link: {
+      /* web: */
       name: 'Ir al proyecto...',
-      url: ' https://github.com/DanloisTovar/rick-y-morty-app',
+      url: 'https://rick-y-morty-app-danlois-tovar.netlify.app/',
+      /* repositorio: */
+      nameRepository: 'Ir al repositorio...',
+      urlRepository: ' https://github.com/DanloisTovar/rick-y-morty-app',
     },
   },
 
@@ -215,8 +223,12 @@ export const projects = [
     name: 'Aplicacion de Notas (CRUD)',
     desc: `Esta aplicacion fue realizada con las siguientes tecnologias: Bootstrap, NodeJS, Express, EJS (embeber Javascript) y MongoDB. Utilizando modelos y vistas (MV).`,
     link: {
+      /* web: */
       name: 'Ir al proyecto...',
-      url: ' https://github.com/DanloisTovar/CRUD-Nodejs',
+      url: ' https://crud-nodejs-danlois-tovar.herokuapp.com',
+      /* repositorio: */
+      nameRepository: 'Ir al repositorio...',
+      urlRepository: 'https://github.com/DanloisTovar/CRUD-Nodejs',
     },
   },
   /* crud con handlebars y MVC: */
@@ -224,8 +236,12 @@ export const projects = [
     name: 'Aplicacion de tareas (CRUD) con login',
     desc: `Esta aplicacion fue realizada con las siguientes tecnologias: Bootstrap, NodeJS, Express, Handlebars , passport y MongoDB. Utilizando MVC.`,
     link: {
+      /* web */
       name: 'Ir al proyecto...',
-      url: ' https://github.com/DanloisTovar/crud-login-mongo',
+      url: 'https://crud-login-danlois-tovar.herokuapp.com/ ',
+      /* repositorio: */
+      nameRepository: 'Ir al repositorio...',
+      urlRepository: 'https://github.com/DanloisTovar/crud-login-mongo',
     },
   },
 
@@ -235,8 +251,12 @@ export const projects = [
     name: 'Formulario de envio de email.',
     desc: `Esta aplicacion fue realizada con el fin de dar comportamiento de envio de email falso utilizando HTML, CSS, talwing, Javascript y Local storage.`,
     link: {
+      /* web: */
       name: 'Ir al proyecto...',
-      url: 'https://github.com/DanloisTovar/simulador-formulario',
+      url: 'https://formulario-mails-danlois-tovar.netlify.app',
+      /* repositorio: */
+      nameRepository: 'Ir al repositorio...',
+      urlRepository: 'https://github.com/DanloisTovar/simulador-formulario',
     },
   },
 
@@ -244,8 +264,12 @@ export const projects = [
     name: 'Pagina web estilo blog',
     desc: `Esta Pagina web fue realizada con fines practicos de Javascript y Jquery.`,
     link: {
+      /* web: */
       name: 'Ir al proyecto...',
-      url: 'https://github.com/DanloisTovar/pagina-web-js.git',
+      url: 'https://pagina-web-js-blog-danlois-tovar.netlify.app/',
+      /* repositorio: */
+      nameRepository: 'Ir al repositorio...',
+      urlRepository: ' https://github.com/DanloisTovar/pagina-web-js',
     },
   },
 
